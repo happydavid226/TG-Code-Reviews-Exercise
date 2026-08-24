@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TaskBoard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>TaskiBoard</h1>
+        <p>Keep track of what needs doing.</p>
+    </div>
+
+    <!-- Add task form -->
+    <div class="box-1">
+        <input type="text" id="taskInput" placeholder="What needsi to be done?">
+        <input type="text" id="taskDue" placeholder="Due date">
+        <div class="btn" onclick="addTask()">Add Task</div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+        <b onclick="setFilter('all')">All</b>
+        <b onclick="setFilter('active')">Active</b>
+        <b onclick="setFilter('done')">Completed</b>
+    </div>
+
+    <!-- Task list -->
+    <div id="taskList">
+        <ul>
+            <li>
+                <input type="checkbox">
+                <span>Example task</span>
+                <img src="delete.png" onclick="deleteTask(this)">
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>You have <span id="count">0</span> tasks  left</p>
+    </div>
+
+    <br><br>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

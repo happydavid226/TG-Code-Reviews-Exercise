@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    margin: 0px;
+}
+
+.header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.box-1 {
+    margin: 20;
+    padding: 15px;
+}
+
+#taskInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.filters b {
+    margin-right: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+#taskList ul {
+    list-style: none;
+}
+
+#taskList li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+}
+
+.done {
+    color: grey;
+    text-decoration: line-through
+}
+
+.footer {
+    text-align: center;
+    color: #a7xb23;
+}
